@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <search-focus @keyup="focusSearch" />
+    <SearchFocus @keyup="focusSearch" />
     <div class="relative w-80">
       <input
         type="text"
@@ -28,7 +28,7 @@
         &times;
       </div>
     </div>
-    <transition name="fade">
+    <!-- <transition name="fade">
       <div  class="absolute normal-case bg-white border left-0 right-0 w-108 text-left mb-4 mt-2 rounded-lg shadow overflow-hidden z-10 overflow-y-auto" style="max-height: 32rem">
         <div class="flex flex-col" ref="results">
           <a
@@ -42,14 +42,19 @@
           </div>
         </div>
       </div>
-    </transition>
+    </transition> -->
   </div>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator'
+import SearchFocus from '@/components/menu/SearchFocus.vue'
 
-@Component
+@Component({
+  components: {
+    SearchFocus
+  }
+})
 export default class Search extends Vue {}
 </script>
 

@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <section class="bg-white border-b py-8">
+  <div class="home bg-gray-100 min-h-screen pt-32">
+    <section class="bg-white border-b py-4">
 	  <div class="container max-w-5xl mx-auto m-8">
 		<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Title</h1>
 		<div class="w-full mb-4">	
@@ -37,12 +37,17 @@
 		</div>
 	</div>
 </section>
+
+	<Shops></Shops>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
+import Shops from '@/views/Shops.vue'
 
-@Component
+@Component({
+	components: {Shops}
+})
 export default class Home extends Vue {}
 </script>

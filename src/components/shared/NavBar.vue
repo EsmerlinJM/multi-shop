@@ -67,6 +67,12 @@ import ModalRegister from '@/components/modals/ModalRegister.vue'
         MegaMenu, Search, ModalLogin, ModalRegister
     }
 })
-export default class NavBar extends Vue {}
+export default class NavBar extends Vue {
+  public menuOpen = false
+
+  public toggleMenu(): void {
+    this.menuOpen = !this.menuOpen
+  }
+}
 </script>
 
