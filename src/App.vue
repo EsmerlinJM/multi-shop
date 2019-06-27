@@ -1,31 +1,21 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+  <div id="app" class="font-sans text-gray-800">
+    <NavBar/>
+      <router-view/>
+    <Footer/>
   </div>
 </template>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
+<script lang="ts">
+import { Vue, Component } from 'vue-property-decorator'
+import Footer from '@/components/shared/Footer.vue'
+import NavBar from '@/components/shared/NavBar.vue'
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+@Component({
+  components: {
+    Footer, NavBar
+  }
+})
+export default class App extends Vue {}
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+</script>
