@@ -6,7 +6,7 @@
         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
 
-      <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+      <div class="w-full md:w-1/6 p-6 flex flex-col flex-grow flex-shrink">
         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
           <div class="bg-white shadow-xl rounded-lg overflow-hidden">
             <div
@@ -80,7 +80,7 @@
         </div>
       </div>
 
-      <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+      <div class="w-full md:w-1/6 p-6 flex flex-col flex-grow flex-shrink">
         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
           <div class="bg-white shadow-xl rounded-lg overflow-hidden">
             <div
@@ -154,7 +154,7 @@
         </div>
       </div>
 
-      <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+      <div class="w-full md:w-1/6 p-6 flex flex-col flex-grow flex-shrink">
         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
           <div class="bg-white shadow-xl rounded-lg overflow-hidden">
             <div

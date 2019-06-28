@@ -19,19 +19,19 @@
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"
-                  class="no-underline text-gray-800 hover:text-blue-700"
+                  class="no-underline text-gray-800 hover:text-red-600"
                 >FAQ</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"
-                  class="no-underline text-gray-800 hover:text-blue-700"
+                  class="no-underline text-gray-800 hover:text-red-600"
                 >Help</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"
-                  class="no-underline text-gray-800 hover:text-blue-700"
+                  class="no-underline text-gray-800 hover:text-red-600"
                 >Support</a>
               </li>
             </ul>
@@ -44,13 +44,13 @@
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"
-                  class="no-underline text-gray-800 hover:text-blue-700"
+                  class="no-underline text-gray-800 hover:text-red-600"
                 >Terms</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"
-                  class="no-underline text-gray-800 hover:text-blue-700"
+                  class="no-underline text-gray-800 hover:text-red-600"
                 >Privacy</a>
               </li>
             </ul>
@@ -63,19 +63,19 @@
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"
-                  class="no-underline text-gray-800 hover:text-blue-700"
+                  class="no-underline text-gray-800 hover:text-red-600"
                 >Facebook</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"
-                  class="no-underline text-gray-800 hover:text-blue-700"
+                  class="no-underline text-gray-800 hover:text-red-600"
                 >Linkedin</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"
-                  class="no-underline text-gray-800 hover:text-blue-700"
+                  class="no-underline text-gray-800 hover:text-red-600"
                 >Twitter</a>
               </li>
             </ul>
@@ -88,19 +88,19 @@
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"
-                  class="no-underline text-gray-800 hover:text-blue-700"
+                  class="no-underline text-gray-800 hover:text-red-600"
                 >Official Blog</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"
-                  class="no-underline text-gray-800 hover:text-blue-700"
+                  class="no-underline text-gray-800 hover:text-red-600"
                 >About Us</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"
-                  class="no-underline text-gray-800 hover:text-blue-700"
+                  class="no-underline text-gray-800 hover:text-red-600"
                 >Contact</a>
               </li>
             </ul>

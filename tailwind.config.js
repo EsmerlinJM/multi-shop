@@ -14,7 +14,8 @@ module.exports = {
       },
       colors: {
         red: {
-          '700' : '#ff6347'
+          '700' : '#ff6347',
+          '600' : '#ff4c2c'
         }
       }
     }

@@ -17,11 +17,11 @@
             <label class="text-sm font-normal"><input type="checkbox" name="remember" class="mr-2">Keep me signed in</label>
           </div>
           <div class="form-group mb-4">
-            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white px-4 py-2 rounded w-full">Login</button>
+            <button type="submit" class="bg-red-700 hover:bg-red-600 text-white px-4 py-2 rounded w-full">Login</button>
           </div>
         </form>
         <div class="text-sm font-normal text-center">
-          <p>Don't have an account? <a href="#" class="text-blue-600 hover:text-blue-800" @click.prevent="showRegister" @keydown.tab.exact.prevent="">Register</a></p>
+          <p>Don't have an account? <a href="#" class="text-red-700 hover:text-red-600" @click.prevent="showRegister" @keydown.tab.exact.prevent="">Register</a></p>
         </div>
       </div>
     </modal>
